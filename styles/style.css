@@ -1,3 +1,127 @@
 *{
-    background: cornsilk;
+   margin: 0;
+   padding: 0;
+}
+:root{
+    --cl-main:#2885FE;
+    --cl-realse-main:#5A6794;
+    --cl-sec:#731127;
+    --cl-reslce-sec:#C12A41;
+    --cl-fondo:#020104;
+}
+
+header{
+    height: 100vh;
+    background: url("/images/5520909.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    background: var(--cl-fondo) ;
+}
+#nav-main{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-main a {
+    color:var(--cl-realse-main)
+}
+
+#card-main{
+    position: relative;
+    top:5em;
+    background:linear-gradient(rgba(48, 47, 47, 0.253),rgba(48, 47, 47, 0.253));
+    width: 450px;
+    padding: 15px;
+}
+
+#card-main h2{
+    color: var(--cl-main);
+    font-size: 40px;
+}
+
+#card-main p{
+    color:var(--cl-reslce-sec)
+}
+
+#card-main a{
+    background:var(--cl-sec);
+    color:var(--cl-realse-main)
+}
+
+/* Seccion del SVG */
+.custom-shape-divider-bottom-1634326812 {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1634326812 svg {
+    
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 123px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1634326812 .shape-fill {
+    fill:var(--cl-fondo);
+}
+
+#sobremi{
+    padding: 3em 0 0 0;
+    color:var(--cl-main)
+}
+
+#sobremi h2,h4{
+    color:var(--cl-sec)
+}
+
+#tecnologia{
+    padding: 4em 0 4em 0;
+    text-align: center;
+    color: var(--cl-sec);
+}
+
+.tarjeta{
+    margin: 35px;
+}
+#div_miselanio{
+    border: 1px dashed var(--cl-realse-main);
+    padding: 3em 0 0 0;
+    color:var(--cl-main)
+}
+
+#bar-state{
+    width: 100%;
+    border:1px solid white
+}
+
+#habilidades{
+    text-align: center;
+    padding: 0 0 3em 0;
+}
+
+
+
+#contacto{
+    height: 90vh;
+    background: url("/images/123Z_2101.w020.n001.947B.p15.947.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }

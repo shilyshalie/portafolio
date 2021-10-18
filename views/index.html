@@ -1,19 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Javier cesar</title>
-</head>
-<body>
-  <header>
-    <nav></nav>
-    banner
-    tarjeta
-  </header>
-  <main></main>
-  <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Javier cesar</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-main" class="navbar navbar-expand">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobremi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tecnologia">Tecnologias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SVG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="card-main" class="card">
+        <div class="card-body">
+          <h2 class="card-title">Hola, soy javier Ramirez</h2>
+          <p class="card-text">
+            Desarrollador y programador fullstack. <br />
+            En busca de mas y nuevos retos.
+          </p>
+          <a href="#" class="btn">Descargar PDF</a>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1634326812">
+        <svg
+          data-name="Layer 1"
+          xmlns=""
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <!-- Seccion de cobre mi -->
+        <div id="sobremi" class="row row-cols-2">
+          <div class="col-6 col-md-6 col-lg-6 col-sm-12">
+            <img src="/images/IMG_20210804_192433.jpg" alt="" width="270" />
+          </div>
+          <div class="col-6 col-md-6 col-sm-12">
+            <h2>Sobre mi</h2>
+            <p>
+              Soy una persona que le gusta mucho investigar temas relacionados
+              con la tecnología, pensar en agilizar las cosas, buscar soluciones
+              modernas y optimas dependiendo el problema que me enfrente.
+            </p>
+            <p>
+              Lo que mas me agrada hacer es la creación de aplicaciones web,
+              distraerme en videojuegos y estar en constante mejora.
+            </p>
+            <h4>Pasatiempos</h4>
+            <div class="row row-cols-5">
+              <div class="col">
+                <img
+                  src="/images/icons/gamepad.png"
+                  alt="Videojuegos"
+                  width="70"
+                />
+                <p>videojuegos</p>
+              </div>
+              <div class="col">
+                <img
+                  src="/images/icons/juego-de-mesa.png"
+                  alt="Juegos de mesa"
+                  width="70"
+                />
+                <p>Juegos de mesa</p>
+              </div>
+              <div class="col">
+                <img
+                  src="/images/icons/video-camera.png"
+                  alt="Grabar"
+                  width="70"
+                />
+                <p>Grabar</p>
+              </div>
+              <div class="col">
+                <img
+                  src="/images/icons/meditacion.png"
+                  alt="Meditar"
+                  width="70"
+                />
+                <p>Meditar</p>
+              </div>
+              <div class="col">
+                <img
+                  src="/images/icons/hiking.png"
+                  alt="Senderismo"
+                  width="70"
+                />
+                <p>Senderismo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin de sobre mi -->
+        <!-- SECCION DE TECNOLOGIAS -->
+        <div id="tecnologia" class="row">
+          <h2>Tecnologias</h2>
+
+          <div id="div_miselanio" class="row row-cols-3">
+            <div class="tarjeta col-md-6 col-lg-4 row row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/html_plain_wordmark_logo_icon_146476.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                HTML 70%
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/css_plain_wordmark_logo_icon_146574.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                CSS %60
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/js-logo.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                JAVASCRIPT %60
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/php_icon_130857.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                PHP %60
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/nodejs_original_logo_icon_146411.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                NODEJS %25
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/python_logo_icon_168886.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                PYTHON %20
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/bootstrap_plain_wordmark_logo_icon_146620.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                BOOTSTRAP %60
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/laravel_plain_wordmark_logo_icon_146439.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                LARAVEL %50
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/react_original_wordmark_logo_icon_146375.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                REACTJS %20
+                <div id="bar-state"></div>
+              </div>
+            </div>
+            <!-- espacio -->
+            <div class="tarjeta row col-lg-4 col-md-6 row-cols-2">
+              <div class="col-2">
+                <img
+                  src="/images/icons/mysql_original_wordmark_logo_icon_146417.png"
+                  alt=""
+                  width="50"
+                />
+              </div>
+              <div class="col-10">
+                MYSQL %70
+                <div id="bar-state"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SECCION DE SERVICIOS -->
+        <div id="habilidades" class="row">
+          <h2>Habilidades</h2>
+          <div class="row row-cols-2">
+            <div class="col">
+              <img src="/images/icons/desarrollo-de-aplicaciones.png" alt="" width="70">
+              <p>Aplicaciones web</p>
+            </div>
+            <div class="col">
+              <img src="/images/icons/diseno-de-logo.png" alt="" width="70">
+              <p>Diseño de logos</p>
+            </div>
+            <div class="col">
+              <img src="/images/icons/sitio-web.png" alt="" width="70">
+              <p>Maquetacion web</p>
+            </div>
+            <div class="col">
+              <img src="/images/icons/almacenamiento-de-base-de-datos.png" alt="" width="70">
+              <p>Base de datos</p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <img src="/images/icons/mantenimiento.png" alt="" width="70">
+            <p>mantenimiento informatico</p>
+          </div>
+        </div>
+      </div>
+      <footer id="contacto">
+        <h2>Contactame</h2>
+        <form action="" class="row">
+          <div class="col-lg-12">
+            <label for="">Asunto</label>
+          <input type="text" class="form-control">
+          </div>
+          
+          <div>
+            <label for="">Mensaje</label>
+          <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="button" value="Enviar" class="btn btn-primary">
+          </div>
+        </form>
+      </footer>
+    </main>
+  </body>
 </html>
